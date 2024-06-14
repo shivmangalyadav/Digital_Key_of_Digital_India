@@ -1,0 +1,10 @@
+please change the location to the location there the pdf files are there in the MyController.java file i.e. present in 
+path:  zetcode\src\main\java\com\zetcode\controller\MyController.java
+
+and in StorageService.java file i.e. in path: zetcode\src\main\java\com\zetcode\service
+
+
+
+Also there are some assumptions and limitations one of which is pdf file should be not more than 1MB
+
+As per the code we have to delete the pdf files every time manually if same pdf is used again and again. after each time use we have to delete the pdf inside the project folder

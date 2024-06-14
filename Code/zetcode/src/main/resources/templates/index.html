@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uploading file</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Style.css">
+<title>Document</title>
+</head>
+<body>
+	
+	 <!-- Header Section -->
+    <Header>
+      <h1>Digital Key of Digital India</h1>
+    </Header>
+
+    <!-- Navbar Section -->
+    <div class="navbar">
+      <div class="leftNav">
+        <ul class="navlist">
+          <li>
+            <a href="/home">Home</a>
+          </li>
+          <li>
+            <a href="/signup">SignUp</a>
+          </li>
+          <li>
+            <a href="/upload">Upload</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+      <!-- Input Section -->
+    <form class="Upload" action="/doUpload" method="post" enctype="multipart/form-data">
+      <label>Select files:</label>
+      <input type="file" name="file" multiple accept=".pdf,.docx" />
+      <button id="btn">Submit</button>
+    </form>
+
+
+</body>
+</html>
